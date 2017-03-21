@@ -1,0 +1,11 @@
+<div><strong>List of Movies Available:</strong></div>
+
+{{#each movies as |movie|}}
+  <div>Title:     {{movie.title}}</div>
+  <div>Release:   {{movie.release}}</div>
+  <div>Director:  {{movie.director}}</div>
+  <div>Genre:     {{movie.genre}}</div>
+  ====================================
+{{/each}}
+
+{{outlet}}
